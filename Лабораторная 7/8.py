@@ -1,0 +1,5 @@
+attempts = ("success", "fail", "fail", "success", "fail", "fail")
+a = attempts.count("success")
+b = attempts.count("fail")
+print(f'success: {a}')
+print(f'fail: {b}')
